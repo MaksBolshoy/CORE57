@@ -1,4 +1,4 @@
-/**package Task_2;
+package ru.shum;
 
 import java.util.Arrays;
 
@@ -37,10 +37,9 @@ public class Main {
      * @param label  Наименование метода
      * @param result Результат метода
      */
-   /** public static void printResult(int[] nums, String label, Object result) {
+    public static void printResult(int[] nums, String label, Object result) {
         System.out.print(Arrays.toString(nums) + " ");
         System.out.println(label + ": " + result);
     }
 
 }
-**/

@@ -1,14 +1,14 @@
-/**package Task_2;
+package ru.shum;
 
 public class HasZeroNeighbors {
     /**
      * Написать функцию, возвращающую истину, если в переданном массиве есть два соседних элемента, с
      * нулевым значением.
      *
-    // * @param nums Принимает массив
+     * @param nums Принимает массив
      * @return Возвращает true или false
      */
-  /**  public static boolean hasZeroNeighbors(int[] nums) {
+    public static boolean hasZeroNeighbors(int[] nums) {
         if (nums.length < 2) {
             return false;
         }
@@ -23,4 +23,4 @@ public class HasZeroNeighbors {
         return false;
     }
 
-}**/
+}
